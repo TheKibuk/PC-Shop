@@ -1,0 +1,240 @@
+body {
+    font-family: sans-serif;
+}
+
+header{
+    background-color: black;
+}
+
+header img{
+    width: 300px;
+    left: 20px;
+    position: relative;
+}
+
+header h1{
+    color:white;
+    position: relative;
+    top:20px;
+    left:140px;
+}
+
+nav a{
+    color:white;
+    text-decoration: none;
+    margin-left: 40px;
+}
+
+nav{
+    position: absolute;
+    left:830px;
+    top:50px;
+}
+
+nav a:first-child{
+    background-color: red;
+    padding: 20px;
+    border-radius: 30px;
+}
+
+nav a:hover{
+    color: greenyellow;
+}
+
+nav a:first-child:hover{
+    color:rgb(0, 17, 255);
+}
+
+.nas{
+    background-image: linear-gradient( to top, #4E0246,#FF00C7);
+    padding: 20px 0px 630px 0px;
+    color: white;
+}
+
+.pro-nas{
+    border-radius:30px ;
+    position: absolute;
+    left: 1000px;
+    top:250px;
+}
+
+.nas h2{
+    position: absolute;
+    left:250px;
+    font-size: 40px;
+    top:220px;
+}
+
+.nas p{
+    position: absolute;
+    left: 250px;
+    font-size: 24px;
+    top:330px;
+}
+
+.katalog h2{
+    text-align: center;
+    position: relative;
+    top:30px;
+    font-size: 40px;
+}
+
+.PC-1{
+    position: absolute;
+    left: 220px;
+    margin-top:50px ;
+}
+
+.PC-2{
+    position: absolute;
+    left: 620px;
+    margin-top:50px ;
+}
+
+.PC-3{
+    position: absolute;
+    left:1020px;
+    margin-top:50px ;
+}
+
+.PC{
+    font-family:'Muller ExtraBold DEMO';
+    font-size: 24px;
+}
+
+.vse{
+    position: relative;
+    font-size: 17px;
+    left:60px;
+}
+
+.vse span{
+    color:#7A7A7A;
+}
+
+.kyputu{
+    position: relative;
+    left:180px;
+    bottom: 33px;
+    background-color: red;
+    text-decoration: none;
+    color:white;
+    padding: 5px 13px 5px 13px;
+    border-radius:20px;
+}
+
+.kyputu:hover{
+    transition: 0.5s ease-out;
+    padding: 8px 17px 8px 17px;
+}
+
+.katalog{
+    padding-bottom: 640px;
+}
+
+.vd{
+    background-image: linear-gradient(to top,#410042,#BD00FF);
+    padding-bottom: 400px;
+}
+
+.vd h1{
+    color:white;
+    text-align: center;
+    font-size: 40px;
+}
+
+.karina{
+    position: absolute;
+    left: 300px;
+}
+
+.karina-1{
+    position: absolute;
+    left:500px;
+    color:white;
+}
+
+.karina-2{
+    position: absolute;
+    top:1670px;
+    left:500px;
+    color:white
+}
+
+.dmitro{
+    position: absolute;
+    left:290px;
+    top:1850px;
+}
+
+.dmitro-1{
+    position: absolute;
+    left: 490px;
+    top:1850px;
+    color:white;
+}
+
+.dmitro-2{
+    position: absolute;
+    left:490px;
+    top:1900px;
+    color:white;
+}
+
+.karta h1{
+    font-size: 40px;
+    text-align: center;
+}
+
+.karta iframe{
+    display: block;
+    margin: auto;
+}
+
+.karta h2{
+    text-align: center;
+    margin-top: 80px;
+}
+
+.misto-1{
+    text-align: center;
+    margin-top:30px;
+}
+
+.misto-2{
+    text-align: center;
+    margin-top:30px;
+}
+
+.misto-3{
+    text-align: center;
+    margin-top:30px;
+}
+
+footer{
+    background-color: black;
+}
+
+footer h2{
+    color:white;
+    position: relative;
+    top:40px;
+    margin-left: 100px;
+}
+
+.merecha{
+    position: relative;
+    color: white;
+    margin-left: 1400px;
+    bottom: 30px;
+}
+
+@font-face {
+	font-family: 'Muller ExtraBold DEMO';
+	src: url('C:/Users/artem/OneDrive/Робочий стіл/Мій проект/fonts/muller_extrabold_demo.eot'); /* IE 9 Compatibility Mode */
+	src: url('C:/Users/artem/OneDrive/Робочий стіл/Мій проект/fonts/muller_extrabold_demo.eot?#iefix') format('embedded-opentype'), /* IE < 9 */
+		url('C:/Users/artem/OneDrive/Робочий стіл/Мій проект/fonts/muller_extrabold_demo.woff2') format('woff2'), /* Super Modern Browsers */
+		url('C:/Users/artem/OneDrive/Робочий стіл/Мій проект/fonts/muller_extrabold_demo.woff') format('woff'), /* Firefox >= 3.6, any other modern browser */
+		url('C:/Users/artem/OneDrive/Робочий стіл/Мій проект/fonts/muller_extrabold_demo.ttf') format('truetype'), /* Safari, Android, iOS */
+		url('C:/Users/artem/OneDrive/Робочий стіл/Мій проект/fonts/muller_extrabold_demo.svg#muller_extrabold_demo') format('svg'); /* Chrome < 4, Legacy iOS */
+}

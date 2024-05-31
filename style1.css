@@ -1,0 +1,193 @@
+body {
+    font-family: sans-serif;
+}
+
+header{
+    background-color: black;
+}
+
+header img{
+    width: 300px;
+    left: 20px;
+    position: relative;
+}
+
+header h1{
+    color:white;
+    position: relative;
+    top:20px;
+    left:140px;
+}
+
+nav a{
+    color:white;
+    text-decoration: none;
+    margin-left: 40px;
+}
+
+nav{
+    position: absolute;
+    left:830px;
+    top:50px;
+}
+
+nav a:first-child{
+    background-color: red;
+    padding: 20px;
+    border-radius: 30px;
+}
+
+nav a:hover{
+    color: greenyellow;
+}
+
+nav a:first-child:hover{
+    color:rgb(0, 17, 255);
+}
+
+.vse span{
+    color:#7a7a7a;
+}
+
+.PC{
+    position: absolute;
+    left: 400px;
+    top:200px;
+}
+
+.PC-1{
+    position: absolute;
+    left:300px;
+    top:170px;
+    box-shadow: 10px 0 10px 10px gainsboro;
+    padding: 40px 40px 150px 400px;
+    border-radius:20px ;
+}
+
+.kypit{
+    text-decoration: none;
+    color:white;
+    background-color: red;
+    padding: 10px 60px 10px 60px;
+    border-radius: 20px;
+}
+
+.kredit{
+    text-decoration: none;
+    position: relative;
+    top:30px;
+    color:#7a7a7a;
+    border:1px solid #7a7a7a;
+    padding: 10px 30px 10px 30px;
+    border-radius: 20px;
+}
+
+.kredit:hover{
+    color:red;
+    border:1px solid red;
+}
+
+.vse{
+    margin-left: 40px;
+}
+
+.cina{
+    font-size: 20px;
+    font-family: sans-serif;
+    position: relative;
+    right: 20px;
+    top:20px;
+}
+
+.pc-2{
+    position: absolute;
+    left:1100px;
+    top:220px;
+    background-color: white;
+    padding: 30px 40px 100px 40px;
+    box-shadow: 5px 0 5px 10px gainsboro;
+    border-radius: 20px;
+}
+
+.naia{
+    color:greenyellow;
+    font-size: 15px;
+    position: relative;
+    left: 100px;
+    bottom:10px;
+}
+
+.pc-3{
+    position: absolute;
+    top:700px;
+    padding-left: 20px;
+}
+
+.pc-3 img{
+    margin-left: 100px;
+}
+
+.det{
+    text-decoration: none;
+    position: relative;
+    top:30px;
+    color:#7a7a7a;
+    border:1px solid #7a7a7a;
+    padding: 10px 30px 10px 30px;
+    border-radius: 20px;
+    margin-left: 135px;
+}
+
+.det:hover{
+    color:red;
+    border:1px solid red;
+}
+
+.det-1{
+    position: absolute;
+    top:900px;
+    padding-left: 7px;
+}
+
+.opuc{
+    position: absolute;
+    top:1000px;
+    left:200px;
+    list-style: none;
+    box-shadow: 5px 0 5px 10px gainsboro;
+    border-radius: 20px;
+}
+
+.top{
+    background-color: gainsboro;
+    padding: 10px 0 10px 40px;
+}
+
+footer{
+    background-color: black;
+    position: relative;
+    top:1700px;
+}
+
+footer h2{
+    color:white;
+    position: relative;
+    top:40px;
+    margin-left: 100px;
+}
+
+.merecha{
+    position: relative;
+    color: white;
+    margin-left: 1400px;
+    bottom: 30px;
+}
+
+.text{
+    text-align: center;
+}
+
+.det:hover{
+    color:red;
+    border:1px solid red;
+}
